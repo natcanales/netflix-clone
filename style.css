@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6em 4em;
+}
+
+a,
+h1,
+h3,
+p,
+button,
+article {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+footer > p,
+footer > ul > li,
+footer > select {
+    color: grey;
+}
+
+#downloading-text {
+    color:rgb(0, 132, 255);
+}
+
+#section-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("./images/films-list-background.jpg");
+}
+
+#section-1 h1,
+#section-1 h3,
+#section-1 p,
+#section-1 form {
+    display: flex;
+    justify-content: center;
+    margin: 1.1em;
+    
+}
+
+#section-1 h1 {
+    text-align: center;
+    font-size: 4.2em;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.netflix-logo {
+    width: 10em;
+}
+
+.signin-button {
+    background-color:#e50914;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    text-decoration: none;
+}
