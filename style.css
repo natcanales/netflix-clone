@@ -1,3 +1,7 @@
+/*******************************************************************************/
+/*                                 GENERIC TAGS                                */
+/*******************************************************************************/
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +15,10 @@ header {
     padding: 1.6em 4em;
 }
 
+body {
+    background-color: black;
+}
+
 a,
 h1,
 h3,
@@ -20,8 +28,8 @@ article {
     color: white;
 }
 
-body {
-    background-color: black;
+section {
+    border-bottom: 10px solid #222;
 }
 
 footer > p,
@@ -30,29 +38,12 @@ footer > select {
     color: grey;
 }
 
-#downloading-text {
-    color:rgb(0, 132, 255);
-}
+/*******************************************************************************/
+/*                                  SECTION 1                                  */
+/*******************************************************************************/
 
 #section-1 {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("./images/films-list-background.jpg");
-}
-
-#section-1 h1,
-#section-1 h3,
-#section-1 p,
-#section-1 form {
-    display: flex;
-    justify-content: center;
-    margin: 1.1em;
-    
-}
-
-#section-1 h1 {
-    text-align: center;
-    font-size: 4.2em;
-    margin-left: 500px;
-    margin-right: 500px;
 }
 
 .netflix-logo {
@@ -64,4 +55,102 @@ footer > select {
     padding: 0.5em 1em;
     border-radius: 4px;
     text-decoration: none;
+}
+
+#section-1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 9em;
+    padding-bottom: 9em;
+}
+
+#section-1 h1 {
+    text-align: center;
+    font-size: 4.2em;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 0.2em;
+}
+
+#section-1 > div > h3 {
+    font-size: 1.6em;
+    font-weight: normal;
+    margin-bottom: 1.4em;
+}
+
+#section-1 > div > p {
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+}
+
+.email-form {
+    display: flex;
+    align-items: center;
+}
+
+.email-form input {
+    padding: 1.3em 20em 1.3em 0.5em;
+    font-size: large;
+}
+
+.email-form button {
+    background-color: #e50914;
+    padding: 16.94px;
+    font-size: 2em;
+    border: none;
+}
+
+.email-form .chevron {
+    width: 26px;
+}
+
+/*******************************************************************************/
+/*                                  SECTION 2                                  */
+/*******************************************************************************/
+
+#section-2 {
+    display: flex;
+    align-items: center;
+    padding: 3em 25em;
+}
+
+#section-2 > article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 31em;
+}
+
+#section-2 > article > h1 {
+    font-size: 3em;
+    margin-bottom: 0.4em;
+}
+
+#section-2 > article > p {
+    font-size: 1.7em;
+}
+#section-2 div {
+    width: 31em;
+    position: relative;
+}
+
+#section-2 #tv {
+    position: relative;
+}
+
+#section-2 #netflix-app-gif {
+    position: absolute;
+    top: 90px;
+    left: 73px;
+}
+
+
+
+
+
+
+#downloading-text {
+    color:rgb(0, 132, 255);
 }
