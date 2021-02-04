@@ -85,24 +85,24 @@ footer > select {
     margin-bottom: 0.5em;
 }
 
-.email-form {
+#section-1 .email-form {
     display: flex;
     align-items: center;
 }
 
-.email-form input {
+#section-1 .email-form input {
     padding: 1.3em 20em 1.3em 0.5em;
     font-size: large;
 }
 
-.email-form button {
+#section-1 .email-form button {
     background-color: #e50914;
     padding: 16.94px;
     font-size: 2em;
     border: none;
 }
 
-.email-form .chevron {
+#section-1 .email-form .chevron {
     width: 26px;
 }
 
@@ -113,6 +113,7 @@ footer > select {
 #section-2 {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     padding: 3em 25em;
 }
 
@@ -131,6 +132,7 @@ footer > select {
 #section-2 > article > p {
     font-size: 1.7em;
 }
+
 #section-2 div {
     width: 31em;
     position: relative;
@@ -152,19 +154,28 @@ footer > select {
 
 #section-3 {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3em 10em;
 }
 
 #section-3 > div{
     position: relative;
 }
+
 #section-3 .download-message {
     display: flex;
+    position: absolute;
+    bottom: 30px;
+    left: 125px;
     align-items: center;
     border: 2px solid #444;
     border-radius: 15px;
-    width: 300px;
+    width: 350px;
     padding: 10px 15px;
+    background-color: black;
 }
+
 #section-3 .texts {
     display: flex;
     flex-direction: column;
@@ -180,6 +191,7 @@ footer > select {
 
 #section-3 .cover {
     width: 4em;
+    position: relative;
 }
 
 .download-animation {
@@ -194,6 +206,10 @@ footer > select {
     font-weight: bolder;
 }
 
+#section-3 > article {
+    width: 550px;
+}
+
 #section-3 > article > h1 {
     font-size: 3em;
     margin-bottom: 0.4em;
@@ -203,9 +219,106 @@ footer > select {
     font-size: 1.7em;
 }
 
+/*******************************************************************************/
+/*                                  SECTION 4                                  */
+/*******************************************************************************/
 
+#section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3em 25em;
+    position: relative;
+}
 
+#section-4 > article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 31em;
+}
 
+#section-4 > article > h1 {
+    font-size: 3em;
+    margin-bottom: 0.4em;
+}
 
+#section-4 > article > p {
+    font-size: 1.7em;
+}
 
+#section-4 div {
+    width: 31em;
+}
 
+#section-4 .devices {
+    position: relative;
+}
+
+#section-4 .series-gif {
+    position: absolute;
+    top: 100px;
+    right: 420px;
+    width: 400px;
+}
+
+/*******************************************************************************/
+/*                                  SECTION 5                                  */
+/*******************************************************************************/
+
+#section-5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3em 25em;
+}
+
+#section-5 > h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+#section-5 article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 400; 
+    background-color: #444;;
+    width: 70%;
+    height: 2.5em;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+
+#section-5 article > div {
+    font-size: 2em;
+}
+
+#section-5 p {
+    font-size: 1.3em;
+    margin-top: 3em;
+    margin-bottom: 1.2em;
+}
+
+#section-5 .email-form {
+    display: flex;
+    align-items: center;
+}
+
+#section-5 .email-form input {
+    padding: 1.3em 20em 1.3em 0.5em;
+    font-size: large;
+}
+
+#section-5 .email-form button {
+    background-color: #e50914;
+    padding: 16.94px;
+    font-size: 2em;
+    border: none;
+}
+
+#section-5 .email-form .chevron {
+    width: 26px;
+}
